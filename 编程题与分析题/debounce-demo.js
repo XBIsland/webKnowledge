@@ -1,4 +1,4 @@
-// 频繁触发时，清楚对应的定时器，然后再开一个定时器，delay秒后执行
+// 频繁触发时，清除对应的定时器，然后再开一个定时器，delay秒后执行
 function debounce(handler, delay){
 
   delay = delay || 300;
